@@ -127,6 +127,11 @@ img#dandoids{
     height: 100%;
     object-fit: cover;
 }
+div#img01{
+    background-color: #ffffff;
+    position: fixed;
+    left: 30px;
+}
 img#img-bugdroid{
      max-width: 300px;
      display: block;
