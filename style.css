@@ -122,9 +122,9 @@ footer a {
     color: #ffffff;
 }
 img#dandoids{
-   display: flex;
+   /* display: flex;
    position: relative;
-   right: 30px;
+   right: 30px; */
 }
 img#img-bugdroid{
      max-width: 300px;
