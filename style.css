@@ -72,7 +72,7 @@ nav > a:hover{
 /* primeira parte do site */
 
 main {
-    min-width: 400px;
+    min-width: 300px;
     max-width: 900px; 
     background-color: rgb(255, 255, 255);
     margin: auto; 
@@ -122,9 +122,8 @@ footer a {
     color: #ffffff;
 }
 img#dandoids{
-   /* display: flex;
-   position: relative;
-   right: 30px; */
+    max-width: 100%;
+    height: auto;
 }
 img#img-bugdroid{
      max-width: 300px;
