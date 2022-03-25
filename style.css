@@ -4,6 +4,7 @@
         font-family: 'android';
         src: url('pacote-projeto-desafiocap16/IDroid.otf')format('opentype');
         }
+        
 /* importações */
 
 *{
@@ -127,11 +128,12 @@ img#dandoids{
     height: 100%;
     object-fit: cover;
 }
-div#img01{
-    background-color: #ffffff;
-    position: fixed;
-    left: 30px;
+@media(max-width: 500px){
+    article{
+        padding-right: 10px;
+    }
 }
+
 img#img-bugdroid{
      max-width: 300px;
      display: block;
