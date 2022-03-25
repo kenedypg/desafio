@@ -64,12 +64,16 @@ nav > a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    padding: 10px;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    
 }
 nav > a:hover{
     background-color: var(--cor03);
-    transition-duration: 1s;
-    border-radius: 2px;
+    transition-duration: 0.5s;
+    /* border-radius: 2px; */
+    
 }
 /* primeira parte do site */
 
@@ -133,7 +137,26 @@ img#dandoids{
         padding-right: 15px;
     }
 }
-
+#divbusca{
+    position: relative;
+    top: 150px;
+    left: 10px; 
+}
+#busca{
+    border-radius: 15px;
+    min-width: 150px;
+    max-width: 300px;
+    height: 30px;
+    background-color: rgb(196, 179, 179);
+    padding-left: 20px;
+    font-family: italic;
+    border-color: #83e1ad;
+}
+@media (max-width: 500px){
+    #divbusca{
+        top: 175px;
+    }
+}
 img#img-bugdroid{
      max-width: 300px;
      display: block;
